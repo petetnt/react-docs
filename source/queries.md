@@ -15,8 +15,7 @@ For instance, in GitHunt, we want to display the currently logged-in user in the
 ```js
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import { graphql } from 'react-apollo';
-import gql from 'graphql-tag';
+import { gql, graphql } from 'react-apollo';
 
 class Profile extends Component { ... }
 
@@ -176,8 +175,7 @@ If you want to change the name of the default `data` prop, but keep the exact sa
 ```js
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import { graphql } from 'react-apollo';
-import gql from 'graphql-tag';
+import { gql, graphql } from 'react-apollo';
 
 class Profile extends Component { ... }
 
@@ -211,8 +209,7 @@ If you want complete control over the props of the child component, use the `pro
 
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import { graphql } from 'react-apollo';
-import gql from 'graphql-tag';
+import { gql, graphql } from 'react-apollo';
 
 // Here Profile has a more generic API, that's not coupled to Apollo or the
 // shape of the query that we've used
