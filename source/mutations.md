@@ -228,4 +228,4 @@ In most cases, the data available from a mutation result should be the server de
 
 Most of the time it is not necessary to tell Apollo which parts of the cache to update, but if your mutation is creating a new object or deleting something, you will need to write some extra logic. Read about it in the [article about updating the store](cache-updates.html).
 
-For more information about all of the options and features supported by React Apollo for GraphQL mutations be sure to review the [API reference on `graphql()` mutations](api.html#mutations).
+For more information about all of the options and features supported by React Apollo for GraphQL mutations be sure to review the [API reference on `graphql()` mutations](api-mutations.html).
